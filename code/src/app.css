@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body{
+        background-color: #030303;
+        line-height: 1.5;
+    }
+    .head{
+        font-family:'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #D4D4D4;
+    }
+    .para{
+        font-family:'Inter', sans-serif;
+        font-size: 1rem;
+        color: #FFFFFF;
+        line-height: 2;
+    }
+}
