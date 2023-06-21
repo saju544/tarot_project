@@ -35,7 +35,7 @@
     position: absolute;
     z-index: 9;
     background-image: url('../../assets/image/astrologer-hero.png');
-    height: calc(100% + 4rem);
+    height: calc(100% + 8rem);
     aspect-ratio: 1/1;
     top: 0;
     background-size: cover;
