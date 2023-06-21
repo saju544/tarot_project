@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         inter: ['Inter', 'sans-serif']
+      },
+      backgroundImage: {
+        'astrologer-hero': "url('src/assets/image/astrologer-hero.png')",
+        'star-sky': "url('src/assets/image/start_sky.png')"
       }
     }
   },
