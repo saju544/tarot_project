@@ -6,7 +6,9 @@
   import OurService from '$lib/component/OurService.svelte'
   import Section from '$lib/component/Section.svelte'
   import Statistics from '$lib/component/Statistics.svelte'
+  import Testimonial from '$lib/component/Testimonial.svelte'
   import WhatWeDo from '$lib/component/WhatWeDo.svelte'
+  import YouTubeChannel from '$lib/component/YouTubeChannel.svelte'
 </script>
 
 <Header />
@@ -16,4 +18,6 @@
   <Intro />
   <OurService />
   <Statistics />
+  <Testimonial />
+  <YouTubeChannel />
 </main>

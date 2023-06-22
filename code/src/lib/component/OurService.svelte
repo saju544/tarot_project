@@ -6,11 +6,34 @@
   import vastu from '../../assets/image/vastu.png'
   import healing from '../../assets/image/healing.png'
   import workshop from '../../assets/image/workshops_and_classes.png'
+  import starSky from '../../assets/image/start_sky.png'
+  import moonRight from '../../assets/image/moon_right.png'
+  import chakra from '../../assets/image/chakra.png'
 </script>
 
-<div>
+<div class="relative">
+  <img
+    class="absolute w-full h-60 -z-10 top-20  object-cover object-bottom"
+    src={starSky}
+    alt="night sky with stars" />
+
+  <img
+    class="absolute rotate-180  w-full h-60 -z-10 -top-40  object-cover object-bottom"
+    src={starSky}
+    alt="night sky with stars" />
+
+  <img
+    class="absolute object-contain right-0 h-60 -top-28 "
+    src={moonRight}
+    alt="moon in right side" />
+
+  <img
+    class="absolute object-contain top-1/2 w-1/2 left-1/2   border"
+    src={chakra}
+    alt="moon in right side" />
+
   <div
-    class="flex flex-col items-center text-center col-start-1  col-end-13  my-20">
+    class="flex  flex-col items-center text-center col-start-1  col-end-13  my-20">
     <h1 class="head ">Our Service</h1>
     <Bar />
   </div>
