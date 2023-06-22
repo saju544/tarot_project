@@ -5,6 +5,7 @@
   import Intro from '$lib/component/Intro.svelte'
   import OurService from '$lib/component/OurService.svelte'
   import Section from '$lib/component/Section.svelte'
+  import Statistics from '$lib/component/Statistics.svelte'
   import WhatWeDo from '$lib/component/WhatWeDo.svelte'
 </script>
 
@@ -14,4 +15,5 @@
   <WhatWeDo />
   <Intro />
   <OurService />
+  <Statistics />
 </main>
