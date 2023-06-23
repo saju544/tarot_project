@@ -10,9 +10,17 @@
 <Section>
   <div
     class="relative col-start-1 col-end-6 mt-40  flex  aspect-square items-center justify-center  ">
-    <img class="absolute scale-125" src={starSign} alt="" />
-    <img class="absolute" src={moonSign} alt="" />
-    <img class="absolute scale-90 " src={moonInverse} alt="" />
+    <img
+      loading="lazy"
+      class="star-sign absolute scale-125"
+      src={starSign}
+      alt="" />
+    <img loading="lazy" class="moon-sign absolute" src={moonSign} alt="" />
+    <img
+      loading="lazy"
+      class="moon-inverse absolute scale-90 "
+      src={moonInverse}
+      alt="" />
   </div>
 
   <article
@@ -30,7 +38,23 @@
   </article>
 
   <img
+    loading="lazy"
     class="absolute w-full object-contain -right-10  -bottom-10 -z-10"
     src={moonPhase}
     alt="phases of moon" />
 </Section>
+
+<style>
+  .star-sign {
+    animation: spin 75s infinite linear;
+  }
+  .moon-sign {
+    animation: spin 65s infinite linear reverse;
+  }
+
+  @keyframes spin {
+    to {
+      rotate: 360deg;
+    }
+  }
+</style>

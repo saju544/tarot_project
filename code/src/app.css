@@ -6,6 +6,7 @@
     body{
         background-color: #030303;
         line-height: 1.5;
+        overflow-x: hidden;
     }
     .head{
         font-family:'Poppins', sans-serif;

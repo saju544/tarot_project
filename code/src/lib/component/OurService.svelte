@@ -13,26 +13,31 @@
 
 <div class="relative">
   <img
-    class="absolute w-full h-60 -z-10 top-20  object-cover object-bottom"
+    loading="lazy"
+    class="absolute w-full h-60 -z-10 top-20  object-cover object-bottom star-sky"
     src={starSky}
     alt="night sky with stars" />
 
   <img
-    class="absolute rotate-180  w-full h-60 -z-10 -top-40  object-cover object-bottom"
+    loading="lazy"
+    class="absolute rotate-180  w-full h-60 -z-10 -top-40  object-cover object-bottom star-sky"
     src={starSky}
     alt="night sky with stars" />
 
   <img
+    loading="lazy"
     class="absolute object-contain right-0 h-60 -top-28 "
     src={moonRight}
     alt="moon in right side" />
 
   <img
+    loading="lazy"
     class="absolute object-contain top-1/4 w-1/2 left-1/2 -translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
   <img
+    loading="lazy"
     class="absolute object-contain top-1/2 w-1/2 left-1/2 -translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
@@ -58,7 +63,11 @@
     </article>
 
     <div class="col-start-8 col-end-13 flex items-center ">
-      <img class="object-cover" src={tarotReading} alt="Geetanjali Sharma" />
+      <img
+        loading="lazy"
+        class="object-cover"
+        src={tarotReading}
+        alt="Geetanjali Sharma" />
     </div>
 
     <Bar className={'col-start-1 col-end-13 w-full my-8 '} />
@@ -66,7 +75,11 @@
 
   <Section>
     <div class="col-start-1  col-end-6 flex items-center ">
-      <img class="object-cover" src={astrologer} alt="Geetanjali Sharma" />
+      <img
+        loading="lazy"
+        class="object-cover"
+        src={astrologer}
+        alt="Geetanjali Sharma" />
     </div>
 
     <article
@@ -100,7 +113,11 @@
       </p>
     </article>
     <div class="col-start-8 col-end-13 flex items-center ">
-      <img class="object-cover" src={vastu} alt="Geetanjali Sharma" />
+      <img
+        loading="lazy"
+        class="object-cover"
+        src={vastu}
+        alt="Geetanjali Sharma" />
     </div>
 
     <Bar className={'col-start-1 col-end-13 w-full my-8 '} />
@@ -108,7 +125,11 @@
 
   <Section>
     <div class="col-start-1  col-end-6 flex items-center ">
-      <img class="object-cover" src={healing} alt="Geetanjali Sharma" />
+      <img
+        loading="lazy"
+        class="object-cover"
+        src={healing}
+        alt="Geetanjali Sharma" />
     </div>
 
     <article
@@ -146,7 +167,11 @@
       </p>
     </article>
     <div class="col-start-8 col-end-13 flex items-center ">
-      <img class="object-cover" src={workshop} alt="Geetanjali Sharma" />
+      <img
+        loading="lazy"
+        class="object-cover"
+        src={workshop}
+        alt="Geetanjali Sharma" />
     </div>
   </Section>
 
@@ -161,3 +186,22 @@
     </p>
   </Section>
 </div>
+
+<style>
+  .star-sky:nth-child(1) {
+    animation: shine 5s alternate infinite;
+  }
+  .star-sky:nth-child(2) {
+    animation: shine 5s alternate infinite reverse;
+  }
+
+  @keyframes shine {
+    from {
+      filter: brightness(0.5);
+    }
+
+    to {
+      filter: brightness(1.5);
+    }
+  }
+</style>

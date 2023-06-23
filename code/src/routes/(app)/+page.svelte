@@ -1,11 +1,10 @@
 <script lang="ts">
-  import Button from '$lib/component/Button.svelte'
+  import Footer from '$lib/component/Footer.svelte'
   import GetInTouch from '$lib/component/GetInTouch.svelte'
   import Header from '$lib/component/Header.svelte'
   import Hero from '$lib/component/Hero.svelte'
   import Intro from '$lib/component/Intro.svelte'
   import OurService from '$lib/component/OurService.svelte'
-  import Section from '$lib/component/Section.svelte'
   import Statistics from '$lib/component/Statistics.svelte'
   import Testimonial from '$lib/component/Testimonial.svelte'
   import WhatWeDo from '$lib/component/WhatWeDo.svelte'
@@ -22,4 +21,5 @@
   <Testimonial />
   <YouTubeChannel />
   <GetInTouch />
+  <Footer />
 </main>

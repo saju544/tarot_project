@@ -7,11 +7,13 @@
 
 <Section>
   <img
+    loading="lazy"
     class="absolute  object-contain top-1/2 w-1/2 left-1/2 -translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
   <img
+    loading="lazy"
     class="col-start-1 col-end-13 mt-14 mb-28"
     src={astroEye}
     alt="astrology eye symbol" />

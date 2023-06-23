@@ -17,7 +17,7 @@
 
     <div class="flex items-center justify-between">
       <article class="flex w-1/4  flex-col items-center text-center gap-4">
-        <img src={ravi} alt="" class="h-24 object-cover" />
+        <img loading="lazy" src={ravi} alt="" class="h-24 object-cover" />
         <p class="para">
           "I have experienced a deep impact from the excellent Tarot and
           astrological guidance of Geetanjali Sharma. Her insightful readings
@@ -31,7 +31,7 @@
 
       <article
         class="flex w-1/4 max-w-[16rem]  flex-col items-center text-center gap-4">
-        <img src={priya} alt="" class="h-24 object-cover " />
+        <img loading="lazy" src={priya} alt="" class="h-24 object-cover " />
         <p class="para">
           "I am grateful for the profound insights I gained through my astrology
           consultation with Geetanjali Sharma. She accurately described my
@@ -44,7 +44,7 @@
       <BarVertical />
 
       <article class="flex w-1/4  flex-col items-center text-center gap-4">
-        <img src={rajesh} alt="" class="h-24 object-cover " />
+        <img loading="lazy" src={rajesh} alt="" class="h-24 object-cover " />
         <p class="para">
           "I had a wonderful healing session with Geetanjali Sharma. Her energy
           work and chakra balancing techniques brought me deep relaxation and

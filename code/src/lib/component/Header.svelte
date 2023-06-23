@@ -9,30 +9,47 @@
 
 <header class="py-4">
   <Section>
-    <div class="flex items-center gap-4 col-start-1">
-      <img src={logo} alt="website logo" class="h-14" />
-      <h1 class="head text-orange">TAROT</h1>
-    </div>
+    <a href="/">
+      <div class="flex items-center gap-4 col-start-1">
+        <img
+          loading="lazy"
+          src={logo}
+          alt="website logo"
+          class="h-14 object-contain " />
+        <h1 class="head text-orange">TAROT</h1>
+      </div>
+    </a>
 
     <div
       class="flex items-center justify-between gap-8 col-start-7 col-end-13 ">
-      <div class="flex items-center gap-4">
-        <img src={map} alt="map icon" />
-        <div>
-          <p class="para">Reach US</p>
-          <p class="para text-dark">Bankura, WB, India</p>
+      <a href="/">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src={map} alt="map icon" />
+          <div>
+            <p class="para">Reach US</p>
+            <address class="para text-dark not-italic">
+              Bankura, WB, India
+            </address>
+          </div>
         </div>
-      </div>
-
-      <div class="flex items-center gap-4">
-        <img src={call} alt="call icon" />
-        <div>
-          <p class="para">Talk to Astrologer</p>
-          <p class="para text-dark">9855000804</p>
+      </a>
+      <a href="/">
+        <div class="flex items-center gap-4">
+          <img loading="lazy" src={call} alt="call icon" />
+          <div>
+            <p class="para">Talk to Astrologer</p>
+            <a href="tel:+919855000804" class="para text-dark">9855000804</a>
+          </div>
         </div>
-      </div>
+      </a>
 
-      <img src={astrologerAvatar} alt="astrologer avatar" class="h-14" />
+      <a href="/">
+        <img
+          loading="lazy"
+          src={astrologerAvatar}
+          alt="astrologer avatar"
+          class="h-14 object-contain" />
+      </a>
     </div>
   </Section>
   <Section>

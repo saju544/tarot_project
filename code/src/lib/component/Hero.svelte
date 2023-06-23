@@ -29,6 +29,7 @@
     background-size: cover;
     background-position: center calc(100% + 5rem);
     box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
+    animation: shine 5s alternate infinite;
   }
   .hero::after {
     content: '';
@@ -40,5 +41,15 @@
     top: 0;
     background-size: cover;
     right: calc((((100vw - 20px) - 100%) / -2));
+  }
+
+  @keyframes shine {
+    from {
+      filter: brightness(0.5);
+    }
+
+    to {
+      filter: brightness(1.5);
+    }
   }
 </style>

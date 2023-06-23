@@ -25,6 +25,7 @@
   </article>
   <div class="col-start-8 col-end-13 flex items-center">
     <img
+      loading="lazy"
       class="col-start-8 col-end-13 mt-40 object-cover "
       src={astrologer}
       alt="Geetanjali Sharma" />
