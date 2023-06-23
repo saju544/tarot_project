@@ -6,7 +6,7 @@
 <Section>
   <article
     class="intro relative col-start-1  col-end-6 mt-40 flex flex-col items-start justify-center  ">
-    <h1 class="head leading-normal mb-4">
+    <h1 class="head mb-4 leading-normal">
       GETANJALI SHARMA | THE TAROR READER
     </h1>
 
