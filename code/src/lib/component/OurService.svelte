@@ -28,15 +28,20 @@
     alt="moon in right side" />
 
   <img
-    class="absolute object-contain top-1/2 w-1/2 left-1/2   border"
+    class="absolute object-contain top-1/4 w-1/2 left-1/2 -translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
-  <div
+  <img
+    class="absolute object-contain top-1/2 w-1/2 left-1/2 -translate-x-1/2"
+    src={chakra}
+    alt="moon in right side" />
+
+  <header
     class="flex  flex-col items-center text-center col-start-1  col-end-13  my-20">
     <h1 class="head ">Our Service</h1>
     <Bar />
-  </div>
+  </header>
 
   <Section>
     <article
@@ -51,6 +56,7 @@
         decisions, and navigate life's challenges.
       </p>
     </article>
+
     <div class="col-start-8 col-end-13 flex items-center ">
       <img class="object-cover" src={tarotReading} alt="Geetanjali Sharma" />
     </div>

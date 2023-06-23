@@ -1,5 +1,6 @@
 <script lang="ts">
   import Button from '$lib/component/Button.svelte'
+  import GetInTouch from '$lib/component/GetInTouch.svelte'
   import Header from '$lib/component/Header.svelte'
   import Hero from '$lib/component/Hero.svelte'
   import Intro from '$lib/component/Intro.svelte'
@@ -20,4 +21,5 @@
   <Statistics />
   <Testimonial />
   <YouTubeChannel />
+  <GetInTouch />
 </main>
