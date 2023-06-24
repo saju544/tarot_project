@@ -25,7 +25,7 @@
     height: calc(100% + 5rem);
     top: 0;
     z-index: -10;
-    background-image: url('../../assets/image/start_sky.png');
+    background-image: url('../../assets/image/start_sky.webp');
     background-size: cover;
     background-position: center calc(100% + 5rem);
     box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
@@ -35,7 +35,7 @@
     content: '';
     position: absolute;
     z-index: 9;
-    background-image: url('../../assets/image/astrologer-hero.png');
+    background-image: url('../../assets/image/astrologer-hero.webp');
     height: calc(100% + 8rem);
     aspect-ratio: 1/1;
     top: 0;

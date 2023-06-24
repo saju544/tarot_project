@@ -1,49 +1,49 @@
 <script>
   import Bar from './Bar.svelte'
   import Section from './Section.svelte'
-  import tarotReading from '../../assets/image/tarot_reading.png'
-  import astrologer from '../../assets/image/astrologer-2.png'
-  import vastu from '../../assets/image/vastu.png'
-  import healing from '../../assets/image/healing.png'
-  import workshop from '../../assets/image/workshops_and_classes.png'
-  import starSky from '../../assets/image/start_sky.png'
-  import moonRight from '../../assets/image/moon_right.png'
-  import chakra from '../../assets/image/chakra.png'
+  import tarotReading from '../../assets/image/tarot_reading.webp'
+  import astrologer from '../../assets/image/astrologer-2.webp'
+  import vastu from '../../assets/image/vastu.webp'
+  import healing from '../../assets/image/healing.webp'
+  import workshop from '../../assets/image/workshops_and_classes.webp'
+  import starSky from '../../assets/image/start_sky.webp'
+  import moonRight from '../../assets/image/moon_right.webp'
+  import chakra from '../../assets/image/chakra.webp'
 </script>
 
 <div class="relative">
   <img
     loading="lazy"
-    class="absolute w-full h-60 -z-10 top-20  object-cover object-bottom star-sky"
+    class="star-sky absolute top-20 -z-10 h-60  w-full object-cover object-bottom"
     src={starSky}
     alt="night sky with stars" />
 
   <img
     loading="lazy"
-    class="absolute rotate-180  w-full h-60 -z-10 -top-40  object-cover object-bottom star-sky"
+    class="star-sky absolute  -top-40 -z-10 h-60 w-full  rotate-180 object-cover object-bottom"
     src={starSky}
     alt="night sky with stars" />
 
   <img
     loading="lazy"
-    class="absolute object-contain right-0 h-60 -top-28 "
+    class="absolute right-0 -top-28 h-60 object-contain "
     src={moonRight}
     alt="moon in right side" />
 
   <img
     loading="lazy"
-    class="absolute object-contain top-1/4 w-1/2 left-1/2 -translate-x-1/2"
+    class="absolute top-1/4 left-1/2 w-1/2 -translate-x-1/2 object-contain"
     src={chakra}
     alt="moon in right side" />
 
   <img
     loading="lazy"
-    class="absolute object-contain top-1/2 w-1/2 left-1/2 -translate-x-1/2"
+    class="absolute top-1/2 left-1/2 w-1/2 -translate-x-1/2 object-contain"
     src={chakra}
     alt="moon in right side" />
 
   <header
-    class="flex  flex-col items-center text-center col-start-1  col-end-13  my-20">
+    class="col-start-1  col-end-13 my-20 flex flex-col  items-center  text-center">
     <h1 class="head ">Our Service</h1>
     <Bar />
   </header>
@@ -51,7 +51,7 @@
   <Section>
     <article
       class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
-      <h1 class="head leading-normal mb-4 text-orange">Tarot Reading</h1>
+      <h1 class="head mb-4 leading-normal text-orange">Tarot Reading</h1>
 
       <p class="para pb-4 leading-loose">
         Our Tarot readings provide deep insights and guidance into various
@@ -84,7 +84,7 @@
 
     <article
       class="intro relative col-start-8 col-end-13  flex flex-col items-start justify-center">
-      <h1 class="head leading-normal mb-4 text-orange">Astrology</h1>
+      <h1 class="head mb-4 leading-normal text-orange">Astrology</h1>
 
       <p class="para pb-4 leading-loose">
         Unlock the secrets of the stars and planets with our expert astrology
@@ -102,7 +102,7 @@
   <Section>
     <article
       class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
-      <h1 class="head leading-normal mb-4 text-orange">Vastu</h1>
+      <h1 class="head mb-4 leading-normal text-orange">Vastu</h1>
 
       <p class="para pb-4 leading-loose">
         Harmonize your living and workspaces with the principles of Vastu
@@ -134,7 +134,7 @@
 
     <article
       class="intro relative col-start-8 col-end-13  flex flex-col items-start justify-center">
-      <h1 class="head leading-normal mb-4 text-orange">Healing</h1>
+      <h1 class="head mb-4 leading-normal text-orange">Healing</h1>
 
       <p class="para pb-4 leading-loose">
         Experience profound healing and rejuvenation through our holistic
@@ -153,7 +153,7 @@
   <Section>
     <article
       class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
-      <h1 class="head leading-normal mb-4 text-orange">
+      <h1 class="head mb-4 leading-normal text-orange">
         Workshops and Classes
       </h1>
 
@@ -176,7 +176,7 @@
   </Section>
 
   <Section>
-    <p class="col-start-1 col-end-13 para leading-normal my-8">
+    <p class="para col-start-1 col-end-13 my-8 leading-normal">
       We actively participate in state-level exhibitions, organize events, and
       collaborate with esteemed organizations to spread awareness and promote
       the understanding of astrological sciences. Through partnerships with

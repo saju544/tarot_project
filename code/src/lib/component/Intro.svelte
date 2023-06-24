@@ -1,6 +1,6 @@
 <script>
   import Section from './Section.svelte'
-  import astrologer from '../../assets/image/astrologer-1.png'
+  import astrologer from '../../assets/image/astrologer-1.webp'
 </script>
 
 <Section>
@@ -38,7 +38,7 @@
     position: absolute;
     height: 15rem;
     aspect-ratio: 1/1;
-    background-image: url('src/assets/image/moon-left.png');
+    background-image: url('../../assets/image/moon-left.webp');
     background-size: contain;
     background-repeat: no-repeat;
     left: calc((100vw - (100% * 2.3)) / -2);

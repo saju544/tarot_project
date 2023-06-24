@@ -1,16 +1,16 @@
 <script lang="ts">
   import Section from '$lib/component/Section.svelte'
-  import logo from '../../assets/image/logo.png'
+  import logo from '../../assets/image/logo.webp'
   import map from '../../assets/svg/map.svg'
   import call from '../../assets/svg/call.svg'
-  import astrologerAvatar from '../../assets/image/astrologer_avatar.png'
+  import astrologerAvatar from '../../assets/image/astrologer_avatar.webp'
   import Nav from './Nav.svelte'
 </script>
 
 <header class="py-4">
   <Section>
     <a href="/">
-      <div class="flex items-center gap-4 col-start-1">
+      <div class="col-start-1 flex items-center gap-4">
         <img
           loading="lazy"
           src={logo}
@@ -21,13 +21,13 @@
     </a>
 
     <div
-      class="flex items-center justify-between gap-8 col-start-7 col-end-13 ">
+      class="col-start-7 col-end-13 flex items-center justify-between gap-8 ">
       <a href="/">
         <div class="flex items-center gap-4">
           <img loading="lazy" src={map} alt="map icon" />
           <div>
             <p class="para">Reach US</p>
-            <address class="para text-dark not-italic">
+            <address class="para not-italic text-dark">
               Bankura, WB, India
             </address>
           </div>

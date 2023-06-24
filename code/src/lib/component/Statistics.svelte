@@ -1,14 +1,14 @@
 <script lang="ts">
-  import astroEye from '../../assets/image/astro_eye.png'
+  import astroEye from '../../assets/image/astro_eye.webp'
   import Section from './Section.svelte'
   import StatisticCard from './StatisticCard.svelte'
-  import chakra from '../../assets/image/chakra.png'
+  import chakra from '../../assets/image/chakra.webp'
 </script>
 
 <Section>
   <img
     loading="lazy"
-    class="absolute  object-contain top-1/2 w-1/2 left-1/2 -translate-x-1/2"
+    class="absolute  top-1/2 left-1/2 w-1/2 -translate-x-1/2 object-contain"
     src={chakra}
     alt="moon in right side" />
 

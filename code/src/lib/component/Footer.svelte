@@ -1,20 +1,20 @@
 <script>
   import Button from './Button.svelte'
   import Section from './Section.svelte'
-  import logo from '../../assets/image/logo.png'
+  import logo from '../../assets/image/logo.webp'
   import socials from '../../assets/svg/socials.svg'
-  import starSky from '../../assets/image/start_sky.png'
-  import fullMoon from '../../assets/image/full_moon.png'
+  import starSky from '../../assets/image/start_sky.webp'
+  import fullMoon from '../../assets/image/full_moon.webp'
 </script>
 
 <Section>
-  <article class="col-start-1 col-end-5 flex flex-col items-center gap-4 mt-28">
+  <article class="col-start-1 col-end-5 mt-28 flex flex-col items-center gap-4">
     <h1 class="para text-2xl text-[#D9D9D9]">Tarot, Astology and Hosroscope</h1>
     <Button>Fix Appointment</Button>
   </article>
 
   <article
-    class="col-start-5 col-end-9 flex flex-col items-center gap-4 mt-52 mb-12">
+    class="col-start-5 col-end-9 mt-52 mb-12 flex flex-col items-center gap-4">
     <div class="flex items-center gap-4">
       <img loading="lazy" src={logo} alt="website logo" class="h-14" />
       <h1 class="head text-orange">TAROT</h1>
@@ -26,7 +26,7 @@
   </article>
 
   <article
-    class="col-start-9 col-end-13 flex flex-col items-center gap-4 mt-28">
+    class="col-start-9 col-end-13 mt-28 flex flex-col items-center gap-4">
     <h1 class="para text-2xl text-[#D9D9D9]">Follow Us On Social</h1>
     <img loading="lazy" src={socials} alt="social media icons" />
   </article>

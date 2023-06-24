@@ -14,8 +14,8 @@ module.exports = {
         inter: ['Inter', 'sans-serif']
       },
       backgroundImage: {
-        'astrologer-hero': "url('src/assets/image/astrologer-hero.png')",
-        'star-sky': "url('src/assets/image/start_sky.png')"
+        'astrologer-hero': "url('src/assets/image/astrologer-hero.webp')",
+        'star-sky': "url('src/assets/image/start_sky.webp')"
       }
     }
   },

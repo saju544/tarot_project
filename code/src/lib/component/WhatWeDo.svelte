@@ -1,9 +1,9 @@
 <script>
   import Section from './Section.svelte'
-  import moonInverse from '../../assets/image/moon-inverse.png'
-  import moonSign from '../../assets/image/moon-sign.png'
-  import starSign from '../../assets/image/star_sign.png'
-  import moonPhase from '../../assets/image/moon-phases.png'
+  import moonInverse from '../../assets/image/moon-inverse.webp'
+  import moonSign from '../../assets/image/moon-sign.webp'
+  import starSign from '../../assets/image/star_sign.webp'
+  import moonPhase from '../../assets/image/moon-phases.webp'
   import Button from './Button.svelte'
 </script>
 
@@ -39,7 +39,7 @@
 
   <img
     loading="lazy"
-    class="absolute w-full object-contain -right-10  -bottom-10 -z-10"
+    class="absolute -right-10 -bottom-10 -z-10  w-full object-contain"
     src={moonPhase}
     alt="phases of moon" />
 </Section>
