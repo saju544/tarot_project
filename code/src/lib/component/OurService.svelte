@@ -43,14 +43,14 @@
     alt="moon in right side" />
 
   <header
-    class="col-start-1  col-end-13 my-20 flex flex-col  items-center  text-center">
+    class="col-start-1  col-end-13 mt-8 flex flex-col  items-center text-center  md:my-20">
     <h1 class="head ">Our Service</h1>
     <Bar />
   </header>
 
   <Section>
     <article
-      class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Tarot Reading</h1>
 
       <p class="para pb-4 leading-loose">
@@ -62,7 +62,8 @@
       </p>
     </article>
 
-    <div class="col-start-8 col-end-13 flex items-center ">
+    <div
+      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -74,7 +75,8 @@
   </Section>
 
   <Section>
-    <div class="col-start-1  col-end-6 flex items-center ">
+    <div
+      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40  ">
       <img
         loading="lazy"
         class="object-cover"
@@ -83,7 +85,7 @@
     </div>
 
     <article
-      class="intro relative col-start-8 col-end-13  flex flex-col items-start justify-center">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Astrology</h1>
 
       <p class="para pb-4 leading-loose">
@@ -101,7 +103,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Vastu</h1>
 
       <p class="para pb-4 leading-loose">
@@ -112,7 +114,8 @@
         enhance overall well-being, prosperity, and success.
       </p>
     </article>
-    <div class="col-start-8 col-end-13 flex items-center ">
+    <div
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -124,7 +127,8 @@
   </Section>
 
   <Section>
-    <div class="col-start-1  col-end-6 flex items-center ">
+    <div
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -133,7 +137,7 @@
     </div>
 
     <article
-      class="intro relative col-start-8 col-end-13  flex flex-col items-start justify-center">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Healing</h1>
 
       <p class="para pb-4 leading-loose">
@@ -152,7 +156,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1  col-end-6  flex flex-col items-start justify-center">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">
         Workshops and Classes
       </h1>
@@ -166,7 +170,9 @@
         a deeper connection with the Tarot.
       </p>
     </article>
-    <div class="col-start-8 col-end-13 flex items-center ">
+    <div
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6
+    md:row-start-auto md:row-end-auto md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"

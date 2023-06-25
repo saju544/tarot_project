@@ -9,8 +9,9 @@
 
 <header class="py-4">
   <Section>
-    <a href="/">
-      <div class="col-start-1 flex items-center gap-4">
+    <div
+      class="col-start-1 col-end-13 flex flex-col items-center gap-3 md:flex-row  md:justify-between  md:gap-0">
+      <div class="hidden items-center gap-4 md:flex ">
         <img
           loading="lazy"
           src={logo}
@@ -18,11 +19,8 @@
           class="h-14 object-contain " />
         <h1 class="head text-orange">TAROT</h1>
       </div>
-    </a>
 
-    <div
-      class="col-start-7 col-end-13 flex items-center justify-between gap-8 ">
-      <a href="/">
+      <div class="hidden items-center justify-between gap-8 md:flex ">
         <div class="flex items-center gap-4">
           <img loading="lazy" src={map} alt="map icon" />
           <div>
@@ -32,8 +30,7 @@
             </address>
           </div>
         </div>
-      </a>
-      <a href="/">
+
         <div class="flex items-center gap-4">
           <img loading="lazy" src={call} alt="call icon" />
           <div>
@@ -41,15 +38,49 @@
             <a href="tel:+919855000804" class="para text-dark">9855000804</a>
           </div>
         </div>
-      </a>
 
-      <a href="/">
         <img
           loading="lazy"
           src={astrologerAvatar}
           alt="astrologer avatar"
           class="h-14 object-contain" />
-      </a>
+      </div>
+
+      <div class="flex w-full items-center justify-between  md:hidden">
+        <div class="flex items-center gap-2">
+          <img
+            loading="lazy"
+            src={logo}
+            alt="website logo"
+            class="h-14 object-contain " />
+          <h1 class="head  text-orange">TAROT</h1>
+        </div>
+
+        <img
+          loading="lazy"
+          src={astrologerAvatar}
+          alt="astrologer avatar"
+          class="h-14 object-contain" />
+      </div>
+
+      <div class="flex w-full items-center justify-center  gap-4   md:hidden">
+        <div class="flex items-center gap-2">
+          <img class="h-5" loading="lazy" src={map} alt="map icon" />
+          <div>
+            <address class="para text-xs  not-italic text-dark">
+              Bankura, WB, India
+            </address>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <div>
+            <a href="tel:+919855000804" class="para text-xs  text-dark"
+              >9855000804</a>
+          </div>
+          <img class="h-5" loading="lazy" src={call} alt="call icon" />
+        </div>
+      </div>
     </div>
   </Section>
   <Section>

@@ -5,7 +5,7 @@
 
 <Section>
   <article
-    class="intro relative col-start-1  col-end-6 mt-40 flex flex-col items-start justify-center  ">
+    class="intro relative col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  flex-col items-start justify-center   md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto  ">
     <h1 class="head mb-4 leading-normal">
       GETANJALI SHARMA | THE TAROR READER
     </h1>
@@ -23,10 +23,11 @@
       lie within.
     </p>
   </article>
-  <div class="col-start-8 col-end-13 flex items-center">
+  <div
+    class="col-start-1 col-end-13 row-start-2  row-end-3 mt-10 flex items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto">
     <img
       loading="lazy"
-      class="col-start-8 col-end-13 mt-40 object-cover "
+      class="col-start-8 col-end-13 object-cover md:mt-40 "
       src={astrologer}
       alt="Geetanjali Sharma" />
   </div>
@@ -36,12 +37,21 @@
   .intro::before {
     content: '';
     position: absolute;
-    height: 15rem;
+    height: 10rem;
     aspect-ratio: 1/1;
     background-image: url('../../assets/image/moon-left.webp');
     background-size: contain;
     background-repeat: no-repeat;
-    left: calc((100vw - (100% * 2.3)) / -2);
-    top: -5rem;
+    left: 0;
+    top: 0;
+    border: 2px solid red;
+  }
+
+  @media (min-width: 768px) {
+    .intro::before {
+      height: 15rem;
+      left: calc((100vw - (100% * 2.3)) / -2);
+      top: -5rem;
+    }
   }
 </style>

@@ -9,14 +9,15 @@
 
 <Section>
   <div class="col-start-1 col-end-13">
-    <header class="my-20 flex flex-col items-center ">
+    <header class="mb-8 mt-12 flex flex-col items-center  md:my-20 ">
       <h1 class="head">Client Testimonials</h1>
-      <Bar className="mb-7 mt-2  w-80 " />
+      <Bar className="md:mb-7 mb-2 mt-2  w-80 " />
       <p class="para text-orange">Hear What Our Clients Have to Say</p>
     </header>
 
-    <div class="flex items-center justify-between">
-      <article class="flex w-1/4  flex-col items-center gap-4 text-center">
+    <div
+      class="flex flex-col items-center  gap-8 md:flex-row md:justify-between md:gap-0">
+      <article class="flex flex-col  items-center gap-4 text-center md:w-1/4">
         <img loading="lazy" src={ravi} alt="" class="h-24 object-cover" />
         <p class="para">
           "I have experienced a deep impact from the excellent Tarot and
@@ -28,9 +29,10 @@
       </article>
 
       <BarVertical />
+      <Bar className="md:hidden block" />
 
       <article
-        class="flex w-1/4 max-w-[16rem]  flex-col items-center gap-4 text-center">
+        class="flex flex-col items-center  gap-4 text-center md:w-1/4 md:max-w-[16rem]">
         <img loading="lazy" src={priya} alt="" class="h-24 object-cover " />
         <p class="para">
           "I am grateful for the profound insights I gained through my astrology
@@ -42,8 +44,9 @@
       </article>
 
       <BarVertical />
+      <Bar className="md:hidden block" />
 
-      <article class="flex w-1/4  flex-col items-center gap-4 text-center">
+      <article class="flex flex-col  items-center gap-4 text-center md:w-1/4">
         <img loading="lazy" src={rajesh} alt="" class="h-24 object-cover " />
         <p class="para">
           "I had a wonderful healing session with Geetanjali Sharma. Her energy

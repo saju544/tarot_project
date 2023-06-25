@@ -9,22 +9,26 @@
 
 <Section>
   <div
-    class="relative col-start-1 col-end-6 mt-40  flex  aspect-square items-center justify-center  ">
+    class="relative col-start-1 col-end-13 row-start-1 row-end-2 mt-10 flex hidden  aspect-square  items-center justify-center  md:col-start-1  md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
     <img
       loading="lazy"
-      class="star-sign absolute scale-125"
+      class="star-sign absolute md:scale-125"
       src={starSign}
       alt="" />
-    <img loading="lazy" class="moon-sign absolute" src={moonSign} alt="" />
     <img
       loading="lazy"
-      class="moon-inverse absolute scale-90 "
+      class="moon-sign absolute scale-90 md:scale-100"
+      src={moonSign}
+      alt="" />
+    <img
+      loading="lazy"
+      class="moon-inverse absolute scale-75 md:scale-90 "
       src={moonInverse}
       alt="" />
   </div>
 
   <article
-    class="col-start-8 col-end-13 mt-40 flex flex-col items-start justify-center  ">
+    class="col-start-1 col-end-13 row-start-2  row-end-3 mt-10 flex flex-col items-start justify-center  md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40  ">
     <h1 class="head">What we do</h1>
 
     <p class="para pb-4 leading-loose">
@@ -39,7 +43,7 @@
 
   <img
     loading="lazy"
-    class="absolute -right-10 -bottom-10 -z-10  w-full object-contain"
+    class="absolute right-0 -bottom-10 -z-10  w-full object-contain"
     src={moonPhase}
     alt="phases of moon" />
 </Section>

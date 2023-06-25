@@ -14,7 +14,7 @@
   </article>
 
   <article
-    class="col-start-5 col-end-9 mt-52 mb-12 flex flex-col items-center gap-4">
+    class="col-start-5 col-end-9 mt-52 mb-12 flex flex-col items-center gap-4 text-center">
     <div class="flex items-center gap-4">
       <img loading="lazy" src={logo} alt="website logo" class="h-14" />
       <h1 class="head text-orange">TAROT</h1>

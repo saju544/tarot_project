@@ -2,7 +2,7 @@
   export let className = ''
 </script>
 
-<div class={'bar h-64 w-0.5 ' + className} />
+<div class={'bar hidden h-64 w-0.5 md:block ' + className} />
 
 <style>
   .bar {

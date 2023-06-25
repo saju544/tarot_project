@@ -11,7 +11,8 @@
 
 <Section>
   <div class="col-start-1 col-end-13">
-    <header class="mt-32 mb-10 flex flex-col items-center ">
+    <header
+      class="mt-16 mb-4 flex flex-col items-center text-center md:mb-10 md:mt-32 ">
       <h1 class="head">Our YouTube Channel</h1>
       <Bar className="mb-7 mt-2  w-80 " />
     </header>
@@ -66,17 +67,24 @@
   .star-sky2 {
     position: absolute;
     z-index: -10;
-    min-width: calc(100vw - 1.3rem);
+    min-width: calc(100vw - 1.5rem);
     height: 43%;
     object-fit: cover;
     object-position: center bottom;
     top: -3rem;
-    left: calc(((100vw - 1.3rem) - 100%) / -2);
+    right: 0;
     rotate: 180deg;
   }
 
   .star-sky2 {
     top: 14rem;
     rotate: 0deg;
+  }
+
+  @media (min-width: 768px) {
+    .star-sky1,
+    .star-sky2 {
+      right: auto;
+    }
   }
 </style>

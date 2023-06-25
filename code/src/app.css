@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 @layer base{
+   body  *{
+        border: 1px solid yellow;
+    }
+    
     body{
         background-color: #030303;
         line-height: 1.5;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .head{
         font-family:'Poppins', sans-serif;

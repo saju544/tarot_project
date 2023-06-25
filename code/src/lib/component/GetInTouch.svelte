@@ -9,16 +9,16 @@
   <h1 class="head col-start-1 col-end-13 mt-20 mb-10">Get in Touch</h1>
 
   <form
-    class="flex col-start-1 col-end-13 gap-20 mb-20 "
+    class="col-start-1 col-end-13 mb-20 flex gap-4"
     on:submit|preventDefault={submitForm}>
     <input
-      class="bg-transparent border-b-dark w-72  text-orange border-b-2 focus:outline-none  focus:border-b-orange  placeholder:text-orange placeholder:para"
+      class="placeholder:para w-1/4 border-b-2  border-b-dark bg-transparent text-orange  placeholder:text-orange  focus:border-b-orange focus:outline-none"
       placeholder="Name"
       type="text"
       name="name"
       id="name" />
     <input
-      class="bg-transparent border-b-dark w-72  text-orange border-b-2 focus:outline-none  focus:border-b-orange   placeholder:text-orange placeholder:para"
+      class="placeholder:para w-1/4 border-b-2  border-b-dark bg-transparent text-orange  placeholder:text-orange   focus:border-b-orange focus:outline-none"
       placeholder="Email"
       type="email"
       name="emial"
