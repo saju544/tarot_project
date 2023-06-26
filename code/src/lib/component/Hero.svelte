@@ -10,9 +10,11 @@
       Love an headd relationship Tarot cards
     </p>
 
-    <header class="pb-2 text-center leading-loose	">
+    <header class="pb-2 text-center leading-normal md:leading-loose	">
       <h1 class="head">Unlock the Mysteries Within:</h1>
-      <h1 class="head">Unvelling Your Seret Destiny through Tarot</h1>
+      <h1 class="head text-orange md:text-head">
+        Unvelling Your Seret Destiny through Tarot
+      </h1>
     </header>
 
     <Button>Reach Out and Connect</Button>
@@ -30,7 +32,9 @@
     background-image: url('../../assets/image/start_sky.webp');
     background-size: cover;
     background-position: bottom;
+    -webkit-box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
     box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
+    -webkit-animation: shine 5s alternate infinite;
     animation: shine 5s alternate infinite;
   }
   .hero::after {

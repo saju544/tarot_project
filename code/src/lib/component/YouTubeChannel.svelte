@@ -84,7 +84,7 @@
   @media (min-width: 768px) {
     .star-sky1,
     .star-sky2 {
-      right: auto;
+      right: 0;
     }
   }
 </style>

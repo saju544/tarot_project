@@ -32,13 +32,13 @@
 
   <img
     loading="lazy"
-    class="absolute top-1/4 left-1/2 w-1/2 -translate-x-1/2 object-contain"
+    class="absolute top-[33rem] w-full  object-contain  md:top-1/4 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
   <img
     loading="lazy"
-    class="absolute top-1/2 left-1/2 w-1/2 -translate-x-1/2 object-contain"
+    class="absolute top-[110rem]  w-full  object-contain  md:top-1/2 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
@@ -50,7 +50,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2 ">
       <h1 class="head mb-4 leading-normal text-orange">Tarot Reading</h1>
 
       <p class="para pb-4 leading-loose">
@@ -63,7 +63,7 @@
     </article>
 
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center  border md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -76,7 +76,7 @@
 
   <Section>
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40  ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto ">
       <img
         loading="lazy"
         class="object-cover"
@@ -103,7 +103,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2">
       <h1 class="head mb-4 leading-normal text-orange">Vastu</h1>
 
       <p class="para pb-4 leading-loose">
@@ -115,7 +115,7 @@
       </p>
     </article>
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex  items-center md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
         class="object-cover"
@@ -128,7 +128,7 @@
 
   <Section>
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto">
       <img
         loading="lazy"
         class="object-cover"
@@ -156,7 +156,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-8 md:col-end-13 md:row-start-1 md:row-end-2">
       <h1 class="head mb-4 leading-normal text-orange">
         Workshops and Classes
       </h1>
@@ -172,7 +172,7 @@
     </article>
     <div
       class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6
-    md:row-start-auto md:row-end-auto md:mt-40 ">
+    md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
         class="object-cover"
