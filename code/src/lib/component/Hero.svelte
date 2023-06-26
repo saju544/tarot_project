@@ -34,8 +34,8 @@
     background-position: bottom;
     -webkit-box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
     box-shadow: 0 30px 25px rgba(0, 0, 0, 0.679) inset;
-    -webkit-animation: shine 5s alternate infinite;
-    animation: shine 5s alternate infinite;
+    -webkit-animation: shine 2s alternate infinite;
+    animation: shine 2s alternate infinite;
   }
   .hero::after {
     content: '';

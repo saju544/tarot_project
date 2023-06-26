@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte'
   import Bar from './Bar.svelte'
 
   let isOpen = false
@@ -6,6 +7,12 @@
   $: middle = isOpen
   $: bottom = isOpen
   $: hide = !isOpen
+
+  let path = '/'
+
+  onMount(() => {
+    path = location.pathname
+  })
 </script>
 
 <button
@@ -29,18 +36,26 @@
   </svg>
 </button>
 
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <nav
   class="col-start-1 col-end-13 flex h-40  flex-col items-center  overflow-hidden transition-all duration-300 md:mt-auto md:h-auto  md:flex-row md:gap-8 md:justify-self-center md:pt-14 md:transition-none"
   class:hide>
-  <a href="/" class="para">HOME</a>
+  <a href="/" class={`para ' + ${path === '/' ? 'text-orange' : ''}`}>HOME</a>
   <Bar className="my-1 md:hidden" />
-  <a href="/" class="para">SHOP</a>
+  <a href="/shop" class={`para ' + ${path === '/shop' ? 'text-orange' : ''}`}
+    >SHOP</a>
   <Bar className="my-1 md:hidden" />
-  <a href="/" class="para">SERVICE</a>
+  <a
+    href="#our-service"
+    class={`para ' + ${path === '/service' ? 'text-orange' : ''}`}>SERVICE</a>
   <Bar className="my-1 md:hidden" />
-  <a href="/" class="para">CONTACT US</a>
+  <a
+    href="/contact"
+    class={`para ' + ${path === '/contact' ? 'text-orange' : ''}`}
+    >CONTACT US</a>
   <Bar className="my-1 md:hidden" />
-  <a href="/" class="para">ABOUT US</a>
+  <a href="/about" class={`para ' + ${path === '/about' ? 'text-orange' : ''}`}
+    >ABOUT US</a>
 </nav>
 
 <style>
@@ -84,7 +99,7 @@
       scale: 0.9;
       opacity: 0.5;
     }
-    top {
+    to {
       scale: 1;
       opacity: 1;
     }

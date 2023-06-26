@@ -11,7 +11,7 @@
   import chakra from '../../assets/image/chakra.webp'
 </script>
 
-<div class="relative">
+<div id="our-service" class="relative">
   <img
     loading="lazy"
     class="star-sky absolute top-20 -z-10 h-60  w-full object-cover object-bottom"
@@ -32,13 +32,13 @@
 
   <img
     loading="lazy"
-    class="absolute top-[33rem] w-full  object-contain  md:top-1/4 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
+    class="absolute top-[33rem] w-full  object-contain  md:top-96 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
   <img
     loading="lazy"
-    class="absolute top-[110rem]  w-full  object-contain  md:top-1/2 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
+    class="absolute top-[110rem]  w-full  object-contain  md:bottom-64 md:left-1/2 md:w-1/2 md:-translate-x-1/2"
     src={chakra}
     alt="moon in right side" />
 
@@ -63,7 +63,7 @@
     </article>
 
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40 ">
+      class="col-start-1 col-end-13  row-start-1 row-end-2 mt-10 flex  items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2  ">
       <img
         loading="lazy"
         class="object-cover"

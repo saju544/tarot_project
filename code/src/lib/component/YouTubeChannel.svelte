@@ -74,6 +74,7 @@
     top: -3rem;
     right: 0;
     rotate: 180deg;
+    /* border: 2px solid yellow; */
   }
 
   .star-sky2 {
@@ -84,7 +85,7 @@
   @media (min-width: 768px) {
     .star-sky1,
     .star-sky2 {
-      right: 0;
+      right: calc(((100vw - 1.5rem) - 100%) / -2);
     }
   }
 </style>

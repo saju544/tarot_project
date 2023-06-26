@@ -3,26 +3,31 @@
 @tailwind utilities;
 
 @layer base {
-    body * {
-        /* border: 1px solid yellow; */
-    }
+  body * {
+    /* border: 1px solid yellow; */
+  }
 
-    body {
-        background-color: #030303;
-        line-height: 1.5;
-        /* overflow-x: hidden; */
-    }
+  body {
+    background-color: #030303;
+    line-height: 1.5;
+    /* scroll-behavior: smooth; */
+    /* overflow-x: hidden; */
+  }
 
-    .head {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 2rem;
-        color: #D4D4D4;
-    }
+  html {
+    scroll-behavior: smooth;
+  }
 
-    .para {
-        font-family: 'Inter', sans-serif;
-        font-size: 1rem;
-        color: #FFFFFF;
-    }
+  .head {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #d4d4d4;
+  }
+
+  .para {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+  }
 }

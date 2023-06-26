@@ -11,14 +11,14 @@
   <Section>
     <div
       class="col-start-1 col-end-13 flex flex-col items-center gap-3 md:flex-row  md:justify-between  md:gap-0">
-      <div class="hidden items-center gap-4 md:flex ">
+      <a href="/" class="hidden items-center gap-4 md:flex ">
         <img
           loading="lazy"
           src={logo}
           alt="website logo"
           class="h-14 object-contain " />
         <h1 class="head text-orange">TAROT</h1>
-      </div>
+      </a>
 
       <div class="hidden items-center justify-between gap-8 md:flex ">
         <div class="flex items-center gap-4">
