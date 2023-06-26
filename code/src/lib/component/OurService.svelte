@@ -50,7 +50,7 @@
 
   <Section>
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2 ">
+      class="intro relative  col-start-1 col-end-13 row-start-2 row-end-3  flex  flex-col items-start justify-center  md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2 ">
       <h1 class="head mb-4 leading-normal text-orange">Tarot Reading</h1>
 
       <p class="para pb-4 leading-loose">
@@ -63,7 +63,7 @@
     </article>
 
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center  border md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40 ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -76,7 +76,7 @@
 
   <Section>
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto ">
+      class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto ">
       <img
         loading="lazy"
         class="object-cover"
@@ -85,7 +85,7 @@
     </div>
 
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-1  md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Astrology</h1>
 
       <p class="para pb-4 leading-loose">
@@ -128,7 +128,7 @@
 
   <Section>
     <div
-      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto">
+      class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-8 md:col-end-13 md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
         class="object-cover"
@@ -137,7 +137,7 @@
     </div>
 
     <article
-      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40">
+      class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-1  md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Healing</h1>
 
       <p class="para pb-4 leading-loose">
