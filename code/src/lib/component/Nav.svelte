@@ -36,7 +36,6 @@
   </svg>
 </button>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
 <nav
   class="col-start-1 col-end-13 flex h-40  flex-col items-center  overflow-hidden transition-all duration-300 md:mt-auto md:h-auto  md:flex-row md:gap-8 md:justify-self-center md:pt-14 md:transition-none"
   class:hide>
