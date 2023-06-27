@@ -5,7 +5,7 @@
 
 <Section>
   <article
-    class="intro relative col-start-1 col-end-13 row-start-1 row-end-2  md:mt-10 mt-20 flex  flex-col items-start justify-center   md:col-start-1 md:col-end-6 md:row-start-auto md:row-end-auto  ">
+    class="intro relative col-start-1 col-end-13 row-start-1 row-end-2  mt-20 flex flex-col  items-start justify-center md:col-start-1   md:col-end-6 md:row-start-auto md:row-end-auto md:mt-32  ">
     <h1 class="head mb-4 leading-normal">
       GETANJALI SHARMA | THE TAROR READER
     </h1>
@@ -24,10 +24,10 @@
     </p>
   </article>
   <div
-    class="col-start-1 col-end-13 row-start-2 row-end-3 md:mt-10 flex items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto">
+    class="col-start-1 col-end-13 row-start-2 row-end-3 flex items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto ">
     <img
       loading="lazy"
-      class="col-start-8 col-end-13 object-cover md:mt-40 "
+      class="col-start-8 col-end-13 object-cover md:mt-14 "
       src={astrologer}
       alt="Geetanjali Sharma" />
   </div>

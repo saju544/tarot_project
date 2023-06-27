@@ -9,7 +9,7 @@
 
 <Section>
   <div
-    class="relative col-start-1 col-end-13 flex flex-col items-center justify-between gap-8  md:flex-row md:items-start">
+    class="relative col-start-1 col-end-13 flex flex-col items-center justify-between gap-8  md:flex-row  md:items-start md:justify-between">
     <article class="flex  flex-col items-center gap-4 text-center">
       <h1 class="para text-2xl text-[#D9D9D9]">
         Tarot, Astology and Hosroscope
@@ -18,7 +18,7 @@
     </article>
 
     <article
-      class="order-2  flex flex-col items-center   gap-4 text-center  md:order-1 md:mt-20 ">
+      class="order-2  flex flex-col items-center   gap-4 text-center  md:order-1 md:mt-20 md:mb-4 ">
       <div class="flex items-center gap-4">
         <img loading="lazy" src={logo} alt="website logo" class="h-14" />
         <h1 class="head text-orange">TAROT</h1>
@@ -65,7 +65,8 @@
     width: 40%;
     object-fit: contain;
     z-index: -11;
-    top: -20rem;
+    top: -22rem;
     left: -5rem;
+    scale: 1.3;
   }
 </style>

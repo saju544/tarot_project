@@ -9,7 +9,7 @@
 
 <Section>
   <div
-    class="relative col-start-1  col-end-13 row-start-1 row-end-2 mt-10 flex aspect-square  items-center  justify-center overflow-hidden  md:col-start-1  md:col-end-6 md:row-start-auto md:row-end-auto md:mt-40 ">
+    class="relative col-start-1  col-end-13 row-start-1 row-end-2 mt-10 flex aspect-square  items-center  justify-center overflow-hidden  md:col-start-1  md:col-end-6  md:row-start-auto md:row-end-auto md:mt-40 md:overflow-visible ">
     <img
       loading="lazy"
       class="star-sign absolute md:scale-125 "
