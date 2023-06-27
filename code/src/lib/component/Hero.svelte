@@ -5,14 +5,14 @@
 
 <Section>
   <div
-    class="hero relative col-start-1 col-end-13 flex  flex-col items-center gap-4 overflow-visible   md:py-8">
+    class="hero relative col-start-1 col-end-13 flex  flex-col items-center gap-8  overflow-visible md:gap-4  md:py-8">
     <p class="para pt-8  text-dark md:py-4">
       Love an headd relationship Tarot cards
     </p>
 
     <header class="pb-2 text-center leading-normal md:leading-loose	">
-      <h1 class="head">Unlock the Mysteries Within:</h1>
-      <h1 class="head text-orange md:text-head">
+      <h1 class="head md:mb-8 md:text-5xl ">Unlock the Mysteries Within:</h1>
+      <h1 class="head text-xl   text-orange md:text-3xl ">
         Unvelling Your Seret Destiny through Tarot
       </h1>
     </header>
@@ -26,7 +26,7 @@
     content: '';
     position: absolute;
     width: calc(100vw - 20px);
-    height: 100%;
+    height: 120%;
     top: 0;
     z-index: -10;
     background-image: url('../../assets/image/start_sky.webp');
@@ -40,24 +40,26 @@
   .hero::after {
     content: '';
     position: absolute;
-    z-index: 9;
+    z-index: -9;
     background-image: url('../../assets/image/astrologer-hero.webp');
     height: calc(100%);
     aspect-ratio: 1/1;
     top: 0;
     background-size: cover;
     right: 0;
+    background-position: center calc(100% + 3rem);
+    background-repeat: no-repeat;
   }
 
   @media (min-width: 768px) {
     .hero::before {
-      background-position: center calc(100% - 5rem);
       height: calc(100% + 5rem);
       background-position: center calc(100% + 5rem);
     }
     .hero::after {
       height: calc(100% + 8rem);
       right: calc((((100vw - 20px) - 100%) / -2));
+      background-position: center calc(100% - 1rem);
     }
   }
 

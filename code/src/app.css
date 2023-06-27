@@ -30,4 +30,18 @@
     font-size: 1rem;
     color: #ffffff;
   }
+  @media (max-width: 768px) {
+    .head {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #d4d4d4;
+    }
+
+    .para {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      color: #ffffff;
+    }
+  }
 }

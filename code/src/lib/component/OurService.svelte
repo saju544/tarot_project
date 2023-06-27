@@ -53,7 +53,7 @@
       class="intro relative  col-start-1 col-end-13 row-start-2 row-end-3  flex  flex-col items-start justify-center  md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2 ">
       <h1 class="head mb-4 leading-normal text-orange">Tarot Reading</h1>
 
-      <p class="para pb-4 leading-loose">
+      <p class="para pb-4 leading-normal md:leading-loose">
         Our Tarot readings provide deep insights and guidance into various
         aspects of your life, including love, career, relationships, and
         personal growth. Through the ancient wisdom of the Tarot cards, we tap
@@ -63,7 +63,7 @@
     </article>
 
     <div
-      class="col-start-1 col-end-13  row-start-1 row-end-2 mt-10 flex  items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2  ">
+      class="col-start-1 col-end-13  row-start-1 row-end-2 mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 ">
       <img
         loading="lazy"
         class="object-cover"
@@ -88,7 +88,7 @@
       class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-1  md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Astrology</h1>
 
-      <p class="para pb-4 leading-loose">
+      <p class="para pb-4 leading-normal md:leading-loose">
         Unlock the secrets of the stars and planets with our expert astrology
         services. By analyzing your birth chart and planetary alignments, we
         provide personalized astrology readings that shed light on your unique
@@ -106,7 +106,7 @@
       class="intro relative col-start-1 col-end-13 row-start-2  row-end-3  flex flex-col items-start justify-center md:col-start-8  md:col-end-13 md:row-start-1 md:row-end-2">
       <h1 class="head mb-4 leading-normal text-orange">Vastu</h1>
 
-      <p class="para pb-4 leading-loose">
+      <p class="para pb-4 leading-normal md:leading-loose">
         Harmonize your living and workspaces with the principles of Vastu
         Shastra. Our Vastu consultations help create an environment that
         promotes positive energy flow, balance, and abundance. From residential
@@ -140,7 +140,7 @@
       class="intro relative col-start-1 col-end-13 row-start-2  row-end-3 flex flex-col items-start justify-center md:col-start-1  md:col-end-6 md:row-start-1 md:row-end-2 md:mt-40">
       <h1 class="head mb-4 leading-normal text-orange">Healing</h1>
 
-      <p class="para pb-4 leading-loose">
+      <p class="para pb-4 leading-normal md:leading-loose">
         Experience profound healing and rejuvenation through our holistic
         healing practices. Whether you're seeking physical, emotional, or
         spiritual healing, our skilled practitioners utilize various modalities
@@ -161,7 +161,7 @@
         Workshops and Classes
       </h1>
 
-      <p class="para pb-4 leading-loose">
+      <p class="para pb-4 leading-normal md:leading-loose">
         We believe in sharing knowledge and empowering others. Join our Tarot
         workshops and classes to explore the mystical world of divination.
         Whether you're a beginner or an experienced practitioner, our

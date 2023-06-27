@@ -16,7 +16,7 @@
 </script>
 
 <button
-  class="col-start-1 col-end-13 mt-8 h-10 justify-self-center md:hidden"
+  class="absolute -top-[5rem]  right-0 z-50 col-start-1  col-end-13 mt-8 h-8 justify-self-center md:hidden"
   on:click={() => (isOpen = !isOpen)}>
   <svg
     height="100%"
@@ -37,29 +37,28 @@
 </button>
 
 <nav
-  class="col-start-1 col-end-13 flex h-40  flex-col items-center  overflow-hidden transition-all duration-300 md:mt-auto md:h-auto  md:flex-row md:gap-8 md:justify-self-center md:pt-14 md:transition-none"
+  class="col-start-1 col-end-13 flex  h-52 flex-col  items-center overflow-hidden transition-all duration-300 md:mt-auto md:h-auto  md:flex-row md:gap-8 md:justify-self-center md:pt-14 md:transition-none"
   class:hide>
-  <a href="/" class={`para ' + ${path === '/' ? 'font-bold text-orange' : ''}`}
+  <a href="/" class={`para  ${path === '/' ? 'font-bold text-orange' : ''}`}
     >HOME</a>
-  <Bar className="my-1 md:hidden" />
+  <Bar className="my-3 md:hidden" />
   <a
     href="/shop"
-    class={`para ' + ${path === '/shop' ? 'font-bold text-orange' : ''}`}
-    >SHOP</a>
-  <Bar className="my-1 md:hidden" />
+    class={`para  ${path === '/shop' ? 'font-bold text-orange' : ''}`}>SHOP</a>
+  <Bar className="my-3 md:hidden" />
   <a
-    href="/#our-service"
-    class={`para ' + ${path === '/service' ? 'font-bold text-orange' : ''}`}
+    href="/service"
+    class={`para  ${path === '/service' ? 'font-bold text-orange' : ''}`}
     >SERVICE</a>
-  <Bar className="my-1 md:hidden" />
+  <Bar className="my-3 md:hidden" />
   <a
     href="/contact"
-    class={`para ' + ${path === '/contact' ? 'font-bold text-orange' : ''}`}
+    class={`para  ${path === '/contact' ? 'font-bold text-orange' : ''}`}
     >CONTACT US</a>
-  <Bar className="my-1 md:hidden" />
+  <Bar className="my-3 md:hidden" />
   <a
     href="/about"
-    class={`para ' + ${path === '/about' ? 'font-bold text-orange' : ''}`}
+    class={`para ${path === '/about' ? 'font-bold text-orange' : ''}`}
     >ABOUT US</a>
 </nav>
 

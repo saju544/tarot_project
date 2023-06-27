@@ -31,7 +31,7 @@
     class="col-start-1 col-end-13 row-start-2  row-end-3 mt-10 flex flex-col items-start justify-center  md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto md:mt-40  ">
     <h1 class="head">What we do</h1>
 
-    <p class="para pb-4 leading-loose">
+    <p class="para pb-4 leading-normal md:leading-loose ">
       Welcome to Getanjali Sharma | The Tarot Reader, where we offer a range of
       services rooted in the mystical arts of Tarot Reading, Astrology, Vastu,
       and Healing. With over 12 years of experience, we have dedicated ourselves

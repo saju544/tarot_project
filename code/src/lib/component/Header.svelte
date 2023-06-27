@@ -46,23 +46,6 @@
           class="h-14 object-contain" />
       </div>
 
-      <div class="flex w-full items-center justify-between  md:hidden">
-        <div class="flex items-center gap-2">
-          <img
-            loading="lazy"
-            src={logo}
-            alt="website logo"
-            class="h-14 object-contain " />
-          <h1 class="head  text-orange">TAROT</h1>
-        </div>
-
-        <img
-          loading="lazy"
-          src={astrologerAvatar}
-          alt="astrologer avatar"
-          class="h-14 object-contain" />
-      </div>
-
       <div class="flex w-full items-center justify-center  gap-4   md:hidden">
         <div class="flex items-center gap-2">
           <img class="h-5" loading="lazy" src={map} alt="map icon" />
@@ -79,6 +62,17 @@
               >9855000804</a>
           </div>
           <img class="h-5" loading="lazy" src={call} alt="call icon" />
+        </div>
+      </div>
+
+      <div class="flex w-full items-center justify-between  md:hidden">
+        <div class="flex items-center gap-2">
+          <img
+            loading="lazy"
+            src={logo}
+            alt="website logo"
+            class="h-14 object-contain " />
+          <h1 class="head  text-orange">TAROT</h1>
         </div>
       </div>
     </div>

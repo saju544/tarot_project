@@ -10,7 +10,7 @@
       GETANJALI SHARMA | THE TAROR READER
     </h1>
 
-    <p class="para pb-4 leading-loose">
+    <p class="para pb-4 leading-normal md:leading-loose">
       An experienced and intuitive Tarot Reader, Astrologer, Vastu practitioner,
       and healer. With over 12 years of mastery in the mystical arts, she guides
       individuals towards self-discovery, empowerment, and spiritual growth.
@@ -27,7 +27,7 @@
     class="col-start-1 col-end-13 row-start-2 row-end-3 flex items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto ">
     <img
       loading="lazy"
-      class="col-start-8 col-end-13 object-cover md:mt-14 "
+      class="col-start-8 col-end-13 object-cover md:mt-14"
       src={astrologer}
       alt="Geetanjali Sharma" />
   </div>

@@ -69,4 +69,17 @@
     left: -5rem;
     scale: 1.3;
   }
+
+  @media (max-width: 768px) {
+    .full-moon {
+      position: absolute;
+      width: 40%;
+      object-fit: contain;
+      z-index: -11;
+      scale: 2.3;
+      top: -1rem;
+      left: 50%;
+      translate: -50%;
+    }
+  }
 </style>

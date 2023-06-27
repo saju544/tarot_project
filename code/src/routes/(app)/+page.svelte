@@ -21,5 +21,5 @@
   <Testimonial />
   <YouTubeChannel />
   <GetInTouch />
-  <Footer />
 </main>
+<Footer />

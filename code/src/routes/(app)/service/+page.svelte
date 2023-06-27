@@ -2,12 +2,12 @@
   import Footer from '$lib/component/Footer.svelte'
   import GetInTouch from '$lib/component/GetInTouch.svelte'
   import Header from '$lib/component/Header.svelte'
-  import Intro from '$lib/component/Intro.svelte'
+  import OurService from '$lib/component/OurService.svelte'
 </script>
 
 <Header />
 <main>
-  <Intro />
+  <OurService />
   <GetInTouch />
 </main>
 <Footer />
