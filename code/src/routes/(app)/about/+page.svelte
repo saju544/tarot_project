@@ -37,5 +37,31 @@
   <Intro />
 
   <GetInTouch />
+</script>
+
+<Header />
+<main>
+  <div class="relative">
+    <img
+      loading="lazy"
+      class="star-sky absolute top-20 -z-10 h-60  w-full object-cover object-bottom"
+      src={starSky}
+      alt="night sky with stars" />
+
+    <img
+      loading="lazy"
+      class="star-sky absolute  -top-40 -z-10 h-60 w-full  rotate-180 object-cover object-bottom"
+      src={starSky}
+      alt="night sky with stars" />
+
+    <img
+      loading="lazy"
+      class="absolute right-0 -top-28 h-60 object-contain "
+      src={moonRight}
+      alt="moon in right side" />
+
+    <Intro />
+    <GetInTouch />
+  </div>
 </main>
 <Footer />
