@@ -8,7 +8,7 @@
   import Bar from '$lib/component/Bar.svelte'
 </script>
 
-<title>Geetanjali Sharma | About Her</title>
+<title>Geetanjali Sharma | About</title>
 
 <Header />
 <main class="relative">

@@ -7,7 +7,7 @@
   <div
     class="hero relative col-start-1 col-end-13 flex  flex-col items-center gap-8  overflow-visible md:gap-4  md:py-8">
     <p class="para pt-8  text-dark md:py-4">
-      Love an headd relationship Tarot cards
+      Love and Relationship Tarot Cards
     </p>
 
     <header class="pb-2 text-center leading-normal md:leading-loose	">
