@@ -66,7 +66,7 @@
       class="col-start-1 col-end-13  row-start-1  row-end-2 mt-10 flex items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 ">
       <img
         loading="lazy"
-        class="md: h-[90%] object-cover  md:mx-auto"
+        class="object-cover md:mx-auto  md:h-[90%]"
         src={tarotReading}
         alt="Geetanjali Sharma" />
     </div>

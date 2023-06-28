@@ -10,6 +10,8 @@
   import Footer from '$lib/component/Footer.svelte'
 </script>
 
+<title>Geetanjali Sharma | Contact</title>
+
 <Header />
 <main class="relative">
   <img
@@ -41,7 +43,7 @@
       class="col-start-1 col-end-13 mt-10 flex flex-col gap-10  md:mt-0  md:mb-36 md:flex-row md:gap-10">
       <form class="grid grow grid-cols-1  gap-4 md:grid-cols-2 md:gap-10">
         <input
-          class="placeholder:para col-span-1 rounded-t-xl  border-b-2 border-b-dark bg-transparent  bg-gray-800  bg-opacity-70 py-4 px-4  text-orange  placeholder:text-orange focus:border-b-orange focus:outline-none md:col-span-2 "
+          class="placeholder:para col-span-1 rounded-t-xl  border-b-2 border-b-dark  bg-gray-800  bg-opacity-70 py-4 px-4  text-orange  placeholder:text-orange focus:border-b-orange focus:outline-none md:col-span-2 "
           placeholder="Your Subject"
           type="text"
           name="subject"

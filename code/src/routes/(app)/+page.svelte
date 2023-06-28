@@ -11,6 +11,8 @@
   import YouTubeChannel from '$lib/component/YouTubeChannel.svelte'
 </script>
 
+<title>Geetanjali Sharma | The Tarot Reader</title>
+
 <Header />
 <main>
   <Hero />

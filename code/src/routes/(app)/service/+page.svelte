@@ -5,6 +5,8 @@
   import OurService from '$lib/component/OurService.svelte'
 </script>
 
+<title>Geetanjali Sharma | Our Services</title>
+
 <Header />
 <main>
   <OurService />
