@@ -63,10 +63,12 @@
   .full-moon {
     position: absolute;
     width: 40%;
-    object-fit: contain;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
     z-index: -11;
-    top: -22rem;
-    left: -5rem;
+    top: -14rem;
+    left: -6rem;
     scale: 1.3;
   }
 
@@ -80,6 +82,16 @@
       top: -1rem;
       left: 50%;
       translate: -50%;
+    }
+
+    .full-moon {
+      border: 2px solid yellow;
+      width: 40%;
+      top: -22rem;
+      left: -5rem;
+      scale: 1.3;
+      object-fit: contain;
+      object-position: center;
     }
   }
 </style>
