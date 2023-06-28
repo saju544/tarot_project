@@ -63,10 +63,10 @@
     </article>
 
     <div
-      class="col-start-1 col-end-13  row-start-1 row-end-2 mt-10 flex  items-center md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 ">
+      class="col-start-1 col-end-13  row-start-1  row-end-2 mt-10 flex items-center   md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2 ">
       <img
         loading="lazy"
-        class="object-cover"
+        class="md: h-[90%] object-cover  md:mx-auto"
         src={tarotReading}
         alt="Geetanjali Sharma" />
     </div>
@@ -79,7 +79,7 @@
       class="col-start-1 col-end-13 row-start-1 row-end-2  mt-10 flex  items-center md:col-start-8 md:col-end-13 md:row-start-auto md:row-end-auto ">
       <img
         loading="lazy"
-        class="object-cover"
+        class="object-cover md:mx-auto  md:h-[90%]"
         src={astrologer}
         alt="Geetanjali Sharma" />
     </div>
@@ -118,7 +118,7 @@
       class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex  items-center md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
-        class="object-cover"
+        class="object-cover md:mx-auto  md:h-[90%]"
         src={vastu}
         alt="Geetanjali Sharma" />
     </div>
@@ -131,7 +131,7 @@
       class="col-start-1 col-end-13 row-start-1 row-end-2 mt-10  flex items-center md:col-start-8 md:col-end-13 md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
-        class="object-cover"
+        class="object-cover md:mx-auto  md:h-[90%]"
         src={healing}
         alt="Geetanjali Sharma" />
     </div>
@@ -175,7 +175,7 @@
     md:row-start-1 md:row-end-2">
       <img
         loading="lazy"
-        class="object-cover"
+        class="object-cover md:mx-auto  md:h-[90%]"
         src={workshop}
         alt="Geetanjali Sharma" />
     </div>
