@@ -33,6 +33,12 @@
         <h1 class="head ">Contact Us</h1>
         <Bar />
       </header>
+
+      <div class="col-start-1 col-end-13 flex border md:flex-row">
+        <form>
+          <input type="text" name="subject" id="subject" />
+        </form>
+      </div>
     </Section>
   </div>
 </main>
