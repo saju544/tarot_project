@@ -11,7 +11,7 @@
   </h1>
 
   <form
-    class="col-start-1 col-end-13 mb-32 flex flex-col  gap-8 md:mb-20  md:flex-row md:gap-12 "
+    class="col-start-1 col-end-13 mb-32 flex flex-col  gap-8 md:mb-32  md:flex-row md:gap-12 "
     on:submit|preventDefault={submitForm}>
     <input
       class="placeholder:para border-b-2 border-b-dark  bg-transparent text-orange placeholder:text-orange  focus:border-b-orange  focus:outline-none md:w-1/4"

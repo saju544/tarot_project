@@ -9,16 +9,16 @@
 
 <Section>
   <div
-    class="relative col-start-1 col-end-13 flex flex-col items-center justify-between gap-8  md:flex-row  md:items-start md:justify-between">
-    <article class="flex  flex-col items-center gap-4 text-center">
-      <h1 class="para text-2xl text-[#D9D9D9]">
+    class="relative   col-start-1  col-end-13 mt-10 flex  flex-col items-center justify-between gap-8 md:mt-0  md:flex-row md:items-start md:justify-between ">
+    <article class="flex flex-col  items-center gap-4 text-center md:w-1/3">
+      <h1 class="para mt-10  text-2xl text-[#D9D9D9] md:mt-0">
         Tarot, Astology and Hosroscope
       </h1>
       <Button>Fix Appointment</Button>
     </article>
 
     <article
-      class="order-2  flex flex-col items-center   gap-4 text-center  md:order-1 md:mt-20 md:mb-4 ">
+      class="order-2 flex  flex-col items-center gap-4   text-center md:order-1  md:mt-20 md:mb-4 md:w-1/3 ">
       <div class="flex items-center gap-4">
         <img loading="lazy" src={logo} alt="website logo" class="h-14" />
         <h1 class="head text-orange">TAROT</h1>
@@ -31,7 +31,8 @@
       </p>
     </article>
 
-    <article class="order-1 flex flex-col items-center  gap-4 md:order-2">
+    <article
+      class="order-1 flex flex-col items-center gap-4  md:order-2 md:w-1/3">
       <h1 class="para text-2xl text-[#D9D9D9]">Follow Us On Social</h1>
       <img loading="lazy" src={socials} alt="social media icons" />
     </article>
@@ -53,7 +54,7 @@
     width: 100%;
     bottom: 0;
     object-fit: cover;
-    object-position: center bottom;
+    object-position: center 85%;
     min-width: calc(100vw - 1.3rem);
     left: calc(((100vw - 1.3rem) - 100%) / -2);
     top: -4rem;
@@ -67,7 +68,7 @@
     object-fit: cover;
     object-position: top;
     z-index: -11;
-    top: -14rem;
+    top: -18rem;
     left: -6rem;
     scale: 1.3;
   }
@@ -76,22 +77,17 @@
     .full-moon {
       position: absolute;
       width: 40%;
+      height: auto;
       object-fit: contain;
       z-index: -11;
       scale: 2.3;
-      top: -1rem;
+      top: -3rem;
       left: 50%;
       translate: -50%;
     }
 
-    .full-moon {
-      border: 2px solid yellow;
-      width: 40%;
-      top: -22rem;
-      left: -5rem;
-      scale: 1.3;
-      object-fit: contain;
-      object-position: center;
+    .star-sky {
+      object-position: center bottom;
     }
   }
 </style>
