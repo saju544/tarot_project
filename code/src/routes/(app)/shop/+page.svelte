@@ -34,8 +34,8 @@
 
   <Section>
     <div
-      class="sticky top-4  z-50 col-start-1 col-end-13  mt-4 flex justify-between px-4">
-      <div class="flex items-center gap-2 md:-ml-32 ">
+      class="sticky top-4 z-50  col-start-1   col-end-13 mt-4 flex  items-center justify-between  2xl:px-4">
+      <div class="flex  flex-col items-center gap-2   xl:-ml-10 2xl:-ml-20 ">
         <svg
           class=""
           height="30"
@@ -63,7 +63,7 @@
       </div>
 
       <button
-        class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:-mr-20 md:text-base"
+        class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base xl:-mr-10  2xl:-mr-20"
         >Checkout</button>
     </div>
 
