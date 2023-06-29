@@ -16,7 +16,7 @@
 </script>
 
 <button
-  class="absolute -top-[5rem]  right-0 z-50 col-start-1  col-end-13 mt-8 h-6 justify-self-center md:hidden"
+  class="absolute -top-[4.7rem]  right-0 z-50 col-start-1  col-end-13 mt-8 h-6 justify-self-center md:hidden"
   on:click={() => (isOpen = !isOpen)}>
   <svg
     height="100%"

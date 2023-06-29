@@ -10,8 +10,8 @@ module.exports = {
         dark: '#A8A8A8'
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
-        inter: ['Inter', 'sans-serif']
+        poppins: ['Josefin Sans', 'sans-serif'],
+        inter: ['Josefin Sans', 'sans-serif']
       },
       backgroundImage: {
         'astrologer-hero': "url('src/assets/image/astrologer-hero.webp')",

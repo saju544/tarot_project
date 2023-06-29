@@ -7,6 +7,7 @@
   import Section from '$lib/component/Section.svelte'
   import { products } from '$lib/shop_product/product'
   import starSky from '../../../assets/image/start_sky.webp'
+  import astroEye from '../../../assets/image/astro_eye.webp'
 </script>
 
 <title>Geetanjali Sharma | Our Products</title>
@@ -34,8 +35,8 @@
 
   <Section>
     <div
-      class="sticky top-4 z-50  col-start-1   col-end-13 mt-4 flex  items-center justify-between  2xl:px-4">
-      <div class="flex  flex-col items-center gap-2   xl:-ml-10 2xl:-ml-20 ">
+      class="sticky top-0 z-50  col-start-1  col-end-13 grid grid-cols-2 items-center justify-between  justify-items-center  pt-4 pb-2  backdrop-blur-lg md:grid-cols-3">
+      <div class="flex  items-center gap-2 ">
         <svg
           class=""
           height="30"
@@ -57,18 +58,21 @@
             stroke="black"
             stroke-width="0.801265" />
         </svg>
+
         <button
           class="para rounded-full border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base"
           >View Cart</button>
       </div>
 
+      <img class="hidden h-10 object-contain  md:block" src={astroEye} alt="" />
+
       <button
-        class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base xl:-mr-10  2xl:-mr-20"
+        class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base "
         >Checkout</button>
     </div>
 
     <div
-      class="shop col-start-1 col-end-13 mt-2  grid  rounded-xl  border-t border-dark p-5  shadow-2xl shadow-slate-800 md:my-10 md:gap-y-12 md:gap-x-4 md:p-10 ">
+      class="shop col-start-1 col-end-13 mt-2 grid  rounded-xl  border-t  border-dark p-5 shadow-2xl  shadow-slate-800 md:my-10 md:mt-0 md:gap-y-12 md:gap-x-4 md:p-10 ">
       {#each $products as product (product.name)}
         <Product
           image={product.image}

@@ -46,7 +46,7 @@
           class="h-14 object-contain" />
       </div>
 
-      <div class="flex w-full items-center justify-center  gap-4   md:hidden">
+      <div class="flex  w-full items-center justify-center  gap-4   md:hidden">
         <div class="flex items-center gap-2">
           <img class="h-5" loading="lazy" src={map} alt="map icon" />
           <div>

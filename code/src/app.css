@@ -10,6 +10,7 @@
   body {
     background-color: #030303;
     line-height: 1.5;
+    font-family: 'Josefin Sans', sans-serif;
     /* scroll-behavior: smooth; */
     /* overflow-x: hidden; */
   }
@@ -19,27 +20,27 @@
   }
 
   .head {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: #d4d4d4;
   }
 
   .para {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
     color: #ffffff;
   }
   @media (max-width: 768px) {
     .head {
-      font-family: 'Poppins', sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
       font-weight: 700;
       font-size: 1.5rem;
       color: #d4d4d4;
     }
 
     .para {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
       font-size: 0.875rem;
       color: #ffffff;
     }
