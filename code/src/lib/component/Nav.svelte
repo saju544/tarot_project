@@ -39,27 +39,35 @@
 <nav
   class="col-start-1 col-end-13 flex  h-52 flex-col  items-center overflow-hidden transition-all duration-300 md:mt-auto md:h-auto  md:flex-row md:gap-8 md:justify-self-center md:pt-14 md:transition-none"
   class:hide>
-  <a href="/" class={`para  ${path === '/' ? 'font-bold text-orange' : ''}`}
-    >HOME</a>
+  <a
+    href="/"
+    class={`para hover:font-bold hover:text-orange  ${
+      path === '/' ? 'font-bold text-orange' : ''
+    }`}>HOME</a>
   <Bar className="my-3 md:hidden" />
   <a
     href="/shop"
-    class={`para  ${path === '/shop' ? 'font-bold text-orange' : ''}`}>SHOP</a>
+    class={`para hover:font-bold hover:text-orange  ${
+      path === '/shop' ? 'font-bold text-orange' : ''
+    }`}>SHOP</a>
   <Bar className="my-3 md:hidden" />
   <a
     href="/service"
-    class={`para  ${path === '/service' ? 'font-bold text-orange' : ''}`}
-    >SERVICE</a>
+    class={`para hover:font-bold hover:text-orange  ${
+      path === '/service' ? 'font-bold text-orange' : ''
+    }`}>SERVICE</a>
   <Bar className="my-3 md:hidden" />
   <a
     href="/contact"
-    class={`para  ${path === '/contact' ? 'font-bold text-orange' : ''}`}
-    >CONTACT US</a>
+    class={`para hover:font-bold hover:text-orange  ${
+      path === '/contact' ? 'font-bold text-orange' : ''
+    }`}>CONTACT US</a>
   <Bar className="my-3 md:hidden" />
   <a
     href="/about"
-    class={`para ${path === '/about' ? 'font-bold text-orange' : ''}`}
-    >ABOUT US</a>
+    class={`para hover:font-bold hover:text-orange ${
+      path === '/about' ? 'font-bold text-orange' : ''
+    }`}>ABOUT US</a>
 </nav>
 
 <style>

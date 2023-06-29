@@ -17,7 +17,7 @@
           src={logo}
           alt="website logo"
           class="h-14 object-contain " />
-        <h1 class="head text-orange">TAROT</h1>
+        <h1 class="head font-sans text-orange">TAROT</h1>
       </a>
 
       <div class="hidden items-center justify-between gap-8 md:flex ">
@@ -72,7 +72,7 @@
             src={logo}
             alt="website logo"
             class="h-14 object-contain " />
-          <h1 class="head  text-orange">TAROT</h1>
+          <h1 class="head font-sans  text-orange">TAROT</h1>
         </div>
       </div>
     </div>

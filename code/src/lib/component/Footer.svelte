@@ -19,10 +19,10 @@
 
     <article
       class="order-2 flex  flex-col items-center gap-4   text-center md:order-1  md:mt-20 md:mb-4 md:w-1/3 ">
-      <div class="flex items-center gap-4">
+      <a href="/" class="flex items-center gap-4">
         <img loading="lazy" src={logo} alt="website logo" class="h-14" />
-        <h1 class="head text-orange">TAROT</h1>
-      </div>
+        <h1 class="head font-sans text-orange">TAROT</h1>
+      </a>
 
       <p class="para">Astrology reveals the will of the gods</p>
 

@@ -6,8 +6,8 @@
 <Section>
   <div
     class="hero relative col-start-1 col-end-13 flex  flex-col items-center gap-8  overflow-visible md:gap-4  md:py-8">
-    <p class="para pt-8  text-dark md:py-4">
-      Love and Relationship Tarot Cards
+    <p class="para pt-4  text-dark  md:py-4 md:text-xl">
+      Tarot, Predictions & Horoscope
     </p>
 
     <header class="pb-2 text-center leading-normal md:leading-loose	">

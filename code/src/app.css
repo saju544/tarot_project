@@ -30,6 +30,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1rem;
     color: #ffffff;
+    font-weight: 300;
   }
   @media (max-width: 768px) {
     .head {
@@ -43,6 +44,7 @@
       font-family: 'Josefin Sans', sans-serif;
       font-size: 0.875rem;
       color: #ffffff;
+      font-weight: 300;
     }
   }
 }
