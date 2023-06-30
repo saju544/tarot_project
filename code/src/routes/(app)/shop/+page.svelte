@@ -77,7 +77,8 @@
         <Product
           image={product.image}
           category={product.category}
-          name={product.name} />
+          name={product.name}
+          price={product.price} />
       {/each}
     </div>
   </Section>

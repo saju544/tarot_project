@@ -66,14 +66,14 @@
       </div>
 
       <div class="flex w-full items-center justify-between  md:hidden">
-        <div class="flex items-center gap-2">
+        <a href="/" class="flex items-center gap-2">
           <img
             loading="lazy"
             src={logo}
             alt="website logo"
             class="h-14 object-contain " />
           <h1 class="head font-sans  text-orange">TAROT</h1>
-        </div>
+        </a>
       </div>
     </div>
   </Section>
