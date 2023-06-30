@@ -1,11 +1,19 @@
 <script lang="ts">
+  import { createEventDispatcher } from 'svelte'
   import Bar from './Bar.svelte'
   import Button from './Button.svelte'
 
+  export let id = 0
   export let image = ''
   export let category = ''
   export let name = ''
   export let price = 0
+
+  const dispatch = createEventDispatcher()
+
+  function showId() {
+    dispatch('click', { id })
+  }
 </script>
 
 <figure class="rounded-xl border border-dashed border-dark p-1 md:p-4">
@@ -19,7 +27,9 @@
       {category}
     </p>
 
-    <p class="para block  text-sm md:hidden ">/- {price}₹</p>
+    <p class="para block text-sm font-bold  text-orange md:hidden ">
+      /- {price}₹
+    </p>
   </div>
 
   <Bar className="md:my-4 my-1 w-full" />
@@ -29,11 +39,14 @@
       {name}
     </p>
 
-    <p class="price para hidden   md:block ">/- {price}₹</p>
+    <p class="price para hidden font-bold text-orange  md:block ">
+      /- {price}₹
+    </p>
   </div>
 
   <button
-    class="para   mx-auto block  w-max  rounded-full border border-orange  border-opacity-70 px-2 text-sm   text-orange hover:bg-orange hover:bg-opacity-20 hover:text-head md:inline-block  md:border-2 md:px-4 md:py-2  md:text-base ">
+    class="para   mx-auto block  w-max  rounded-full border border-orange  border-opacity-70 px-2 text-sm   text-orange hover:bg-orange hover:bg-opacity-20 hover:text-head md:inline-block  md:border-2 md:px-4 md:py-2  md:text-base "
+    on:click={showId}>
     Add to Cart
   </button>
 </figure>

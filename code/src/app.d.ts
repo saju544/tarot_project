@@ -11,10 +11,19 @@ declare global {
       }
       caches: CacheStorage & { default: Cache }
     }
+
     // interface Error {}
     // interface Locals {}
     // interface PageData {}
     // interface Platform {}
+  }
+  type product = {
+    id: number
+    name: string
+    category: string
+    description: string
+    image: string
+    price: number
   }
 }
 

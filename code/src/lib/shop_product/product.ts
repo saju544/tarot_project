@@ -1,4 +1,4 @@
-import { writable } from 'svelte/store'
+import { writable, type Writable } from 'svelte/store'
 import agate from '../../assets/image/agate.jpg'
 import amethyst from '../../assets/image/amethyst.jpg'
 import blackTurmaline from '../../assets/image/black_turmaline.jpg'
@@ -15,7 +15,7 @@ import product1 from '../../assets/image/product1.webp'
 import product2 from '../../assets/image/product2.webp'
 import product3 from '../../assets/image/product3.webp'
 
-export const products = writable([
+export const items: product[] = [
   {
     id: 1,
     name: 'AGATE',
@@ -142,4 +142,4 @@ export const products = writable([
     image: lightBrownTigersEye,
     price: 2500
   }
-])
+]
