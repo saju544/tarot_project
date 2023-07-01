@@ -11,13 +11,16 @@
   import { writable, type Writable } from 'svelte/store'
   import { setContext } from 'svelte'
   import Cart from '$lib/component/Cart.svelte'
+  import Checkout from '$lib/component/Checkout.svelte'
 
   let products = writable(items)
   let productsInCart: Writable<product[]> = writable([])
   let isCartOpen = writable(false)
+  let isCheckoutOpen = writable(false)
   setContext('product', products)
   setContext('product-in-cart', productsInCart)
   setContext('is-cart-open', isCartOpen)
+  setContext('is-checkout-open', isCheckoutOpen)
 
   function addToCart(ev: CustomEvent) {
     const id = ev.detail.id
@@ -88,7 +91,7 @@
 
       <button
         class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base "
-        >Checkout</button>
+        on:click={() => ($isCheckoutOpen = true)}>Checkout</button>
     </div>
 
     <div
@@ -104,6 +107,7 @@
       {/each}
 
       <Cart />
+      <Checkout />
     </div>
   </Section>
 

@@ -47,7 +47,7 @@
   <button
     class="para   mx-auto block  w-max  rounded-full border border-orange  border-opacity-70 px-2 text-sm   text-orange hover:bg-orange hover:bg-opacity-20 hover:text-head md:inline-block  md:border-2 md:px-4 md:py-2  md:text-base "
     on:click={showId}>
-    Add to Cart
+    <slot>Add to Cart</slot>
   </button>
 </figure>
 
