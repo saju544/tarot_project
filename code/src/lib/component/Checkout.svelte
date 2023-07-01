@@ -4,6 +4,8 @@
   import Button from './Button.svelte'
 
   let isCheckoutOpen = getContext('is-checkout-open') as Writable<boolean>
+
+  let productsInCart = getContext('product-in-cart') as Writable<product[]>
 </script>
 
 <div
@@ -14,7 +16,8 @@
     class="absolute right-2 -top-4 flex aspect-square h-8 items-center justify-center  rounded-full bg-red-700 font-sans text-white hover:bg-red-500 active:scale-90 "
     on:click={() => ($isCheckoutOpen = false)}>X</button>
 
-  <form class="grid grow grid-cols-1  gap-4 md:grid-cols-2 md:gap-10">
+  <form
+    class="grid grow  grid-cols-1 gap-4  md:grid-cols-2 md:content-start md:gap-10">
     <input
       class="placeholder:para border-b-dabg-transpar bg-opacity-70ent col-span-1  rounded-none border-b-2 bg-gray-800 bg-opacity-70 py-4  px-4  text-orange placeholder:text-orange  focus:border-b-orange focus:outline-none md:rounded-l-xl"
       placeholder="Name"
@@ -47,5 +50,30 @@
 
   <section class="relative space-y-4 rounded-xl border-dark md:border md:p-8 ">
     <h1 class="head text-orange">Products to Order</h1>
+
+    <table class="para w-full table-auto">
+      <thead class="">
+        <tr class="border-b text-head">
+          <th class="p-2 text-left">Product</th>
+          <th class="p-2 text-right">Price</th>
+        </tr>
+      </thead>
+
+      <tbody class="">
+        {#each $productsInCart as product (product.id)}
+          <tr class="">
+            <td class="p-2 text-left">{product.name}</td>
+            <td class="p-2 text-right">{product.price}</td>
+          </tr>
+        {/each}
+
+        <tr class="border-t text-3xl font-bold text-orange">
+          <th class="p-2 text-left">Total</th>
+          <th class="p-2 text-right">
+            /- {$productsInCart.reduce((pv, product) => pv + product.price, 0)} ₹
+          </th>
+        </tr>
+      </tbody>
+    </table>
   </section>
 </div>

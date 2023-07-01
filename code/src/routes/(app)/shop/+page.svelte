@@ -84,14 +84,24 @@
 
         <button
           class="para rounded-full border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base"
-          on:click={() => ($isCartOpen = true)}>View Cart</button>
+          on:click={() => {
+            if ($isCheckoutOpen) {
+              $isCheckoutOpen = false
+            }
+            $isCartOpen = true
+          }}>View Cart</button>
       </div>
 
       <img class="hidden h-10 object-contain  md:block" src={astroEye} alt="" />
 
       <button
         class="para rounded-full   border border-dashed border-dark bg-orange bg-opacity-70 px-2 py-1 text-sm md:text-base "
-        on:click={() => ($isCheckoutOpen = true)}>Checkout</button>
+        on:click={() => {
+          if ($isCartOpen) {
+            $isCartOpen = false
+          }
+          $isCheckoutOpen = true
+        }}>Checkout</button>
     </div>
 
     <div
