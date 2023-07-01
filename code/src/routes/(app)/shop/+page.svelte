@@ -17,6 +17,10 @@
   let productsInCart: Writable<product[]> = writable([])
   let isCartOpen = writable(false)
   let isCheckoutOpen = writable(false)
+
+  let cart: Cart
+  let checkout: Checkout
+
   setContext('product', products)
   setContext('product-in-cart', productsInCart)
   setContext('is-cart-open', isCartOpen)
@@ -24,8 +28,12 @@
 
   function addToCart(ev: CustomEvent) {
     const id = ev.detail.id
-    const product = $products.find((p) => p.id === id)
+    let product = $products.find((p) => p.id === id)
     if (product) {
+      product = { ...product }
+      if ($productsInCart.find((p) => p.id === id)) {
+        product.id = Math.floor(Math.random() * 100000)
+      }
       $productsInCart.push(product)
       $productsInCart = $productsInCart
     }
@@ -89,6 +97,7 @@
               $isCheckoutOpen = false
             }
             $isCartOpen = true
+            cart.scrollIntoView()
           }}>View Cart</button>
       </div>
 
@@ -101,6 +110,7 @@
             $isCartOpen = false
           }
           $isCheckoutOpen = true
+          checkout.scrollIntoView()
         }}>Checkout</button>
     </div>
 
@@ -116,8 +126,8 @@
           on:click={addToCart} />
       {/each}
 
-      <Cart />
-      <Checkout />
+      <Cart bind:this={cart} />
+      <Checkout bind:this={checkout} />
     </div>
   </Section>
 

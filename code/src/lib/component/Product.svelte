@@ -20,7 +20,7 @@
   <img
     src={image}
     alt=""
-    class="rounded-t-xl   object-cover object-center  md:mb-2  md:h-[60%]" />
+    class="h-[60%]   rounded-t-xl object-cover  object-center  md:mb-2" />
 
   <div class="md-mt-0 mt-2 flex justify-between">
     <p class="para text-center text-sm text-dark md:text-left  md:text-base">
