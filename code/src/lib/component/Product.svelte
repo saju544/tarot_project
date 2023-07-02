@@ -20,7 +20,7 @@
   <img
     src={image}
     alt=""
-    class="h-[60%]   rounded-t-xl object-cover  object-center  md:mb-2" />
+    class="h-32 rounded-t-xl   object-cover object-center  md:mb-2  md:h-[60%]" />
 
   <div class="md-mt-0 mt-2 flex justify-between">
     <p class="para text-center text-sm text-dark md:text-left  md:text-base">
@@ -45,7 +45,7 @@
   </div>
 
   <button
-    class="para   mx-auto block  w-max  rounded-full border border-orange  border-opacity-70 px-2 text-sm   text-orange hover:bg-orange hover:bg-opacity-20 hover:text-head md:inline-block  md:border-2 md:px-4 md:py-2  md:text-base "
+    class="para mx-auto  block  w-max  rounded-full border border-orange  border-opacity-70 px-2 text-sm   text-orange hover:bg-orange hover:bg-opacity-20 hover:text-head md:inline-block  md:border-2 md:px-4 md:py-2  md:text-base "
     on:click={showId}>
     <slot>Add to Cart</slot>
   </button>

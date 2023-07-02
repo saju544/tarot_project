@@ -21,7 +21,7 @@
 </script>
 
 <div
-  class={`absolute top-0  left-0  right-0 scroll-m-20  rounded-xl border-b border-dark  bg-zinc-900 pb-2 ${
+  class={`absolute top-0  left-0  right-0 scroll-m-20 rounded-xl  border-b-8 border-dark  border-b-orange  bg-zinc-900 pb-2 ${
     $isCartOpen ? 'block' : 'hidden'
   }`}
   bind:this={cart}>
